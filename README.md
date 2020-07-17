@@ -22,3 +22,11 @@ but be a aware this method, Also wont stay on the server, this is for eyes only
 
 3. The third Attack, with this attack you will be able to INSERT data(code) and it will stay on the website:now there
 are 2 kinds, it depends if we can execute PHP or HTML if we can inject PHP then we can inject HTML but not vice versa.
+
+## Finding The XSS vulnerable Webiste
+
+There are many techniques like:
+- magic_quotes_gpc=ON bypass
+- HEX encoding
+- Obfuscation
+- Trying around
