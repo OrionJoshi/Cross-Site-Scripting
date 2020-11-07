@@ -43,3 +43,9 @@ Cross-site scripting works by manipulating a vulnerable web site so that it retu
    - Stored XSS, where the malicious script comes from the website's database.
    - DOM-based XSS, where the vulnerability exists in client-side code rather than server-side code.
 
+## Xss used for following purpose ?
+
+1. Used to access any data of user
+2. Used for stealing login credential of user
+3. Decline of the web site
+4. Injecting different types of trojan in website
