@@ -49,3 +49,16 @@ Cross-site scripting works by manipulating a vulnerable web site so that it retu
 2. Used for stealing login credential of user
 3. Decline of the web site
 4. Injecting different types of trojan in website
+
+## Preventive measure of Xss
+
+1. Do not trust any users input data
+   - At the point where user input is received, filter as strictly as possible based on what is expected or valid input. 
+2. Content Security Policy
+   -  you can use Content Security Policy (CSP) to reduce the severity of any XSS vulnerabilities that still occur. 
+3. Use appropriate response headers.
+   - you can use the Content-Type and X-Content-Type-Options headers to ensure that browsers interpret the responses in the way you intend.
+4. Set the HttpOnly flag
+   - To mitigate the consequences of a possible XSS vulnerability, set the HttpOnly flag for cookies. If you do, such cookies will not be accessible via client-side          JavaScript. 
+5. Use escaping/encoding
+   - Use an appropriate escaping/encoding technique depending on where user input is to be used: HTML escape, JavaScript escape, CSS escape, URL escape, etc.
